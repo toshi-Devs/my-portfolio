@@ -23,7 +23,11 @@ export default function Home() {
                     repeat={Infinity}
                   /> 
             </div>
-          </div>     
+          </div>  
+
+          <div className='flex fixed right-10'>
+            <img src="/toshi.png" alt="toshi" className="w-96 h-96" />
+          </div>   
           
         </div>
         
