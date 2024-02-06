@@ -1,5 +1,6 @@
 "use client"
 import { TypeAnimation } from 'react-type-animation'
+import Animation from "@/components/Animation"
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
       <div className="bg-[#1A202C] h-screen">
         <div className="flex justify-normal items-center h-full">
 
-          <div className="space-y-3 p-5">
-            <div className="text-white text-6xl">Hey, I'm <span className=" text-[#00838D]">toshi.</span></div>
+          <div className="space-y-3 p-5 select-none">
+            <div className="text-white text-6xl">Hey, I'm <span className=" text-[#00838D] font-semibold">toshi.</span></div>
             <div className="text-white text-5xl">A <span className=" text-[#00838D]">Software Developer</span></div>
             <div className="text-white text-2xl font-mono">interested in </div>
             <div className='text-white text-2xl font-mono'> 
@@ -26,7 +27,7 @@ export default function Home() {
           </div>  
 
           <div className='flex fixed right-10'>
-            <img src="/toshi.png" alt="toshi" className="w-96 h-96" />
+            <Animation />
           </div>   
           
         </div>
