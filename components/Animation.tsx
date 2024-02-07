@@ -115,43 +115,10 @@ const Animation = () => {
                 value: 1,
             },
         },
-        // polygon: {
-        //     draw: {
-        //         enable: true,
-        //         stroke: {
-        //             color: "#000",
-        //             width: 1,
-        //             opacity: 0.2,
-        //         },
-        //     },
-        //     enable: true,
-        //     move: {
-        //         radius: 10,
-        //     },
-        //     position: {
-        //         x: 50,
-        //         y: 50,
-        //     },
-        //     inline: {
-        //         arrangement: "equidistant",
-        //     },
-        //     scale: 0.5,
-        //     type: "inline",
-        //     url: "https://particles.js.org/images/smalldeer.svg",
-        // },
-        // background: {
-        //     color: "transparent",
-        //     image: "",
-        //     repeat: "no-repeat",
-        //     size: "100% 100vh",
-        // position: "center",
-        // },
+
     }),
     [],
   );
-//   if (!show) {
-//     return null; // Hide the animation if show is false
-//   }
 
   return (
     <Particles
