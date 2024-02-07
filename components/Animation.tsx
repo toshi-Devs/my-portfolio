@@ -1,36 +1,22 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import {
-  type Container,
-  type ISourceOptions,
-  MoveDirection,
-  OutMode,
-} from "@tsparticles/engine";
-// import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
-// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-// import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
+import { type ISourceOptions } from "@tsparticles/engine";
+import { loadSlim } from "@tsparticles/slim";
 
-const App = () => {
+const Animation = () => {
   const [init, setInit] = useState(false);
 
-  // this should be run only once per application lifetime
+
   useEffect(() => {
     initParticlesEngine(async (engine) => {
-      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-      // starting from v2 you can add only the features you need reducing the bundle size
-      //await loadAll(engine);
-      //await loadFull(engine);
       await loadSlim(engine);
-      //await loadBasic(engine);
     }).then(() => {
       setInit(true);
     });
   }, []);
 
-  const particlesLoaded = async (container?: Container): Promise<void> => {
-    console.log(container);
+  const particlesLoaded = async () => {
+    // console.log("Particles loaded");
   };
 
   const options: ISourceOptions = useMemo(
@@ -92,7 +78,7 @@ const App = () => {
         },
         particles: {
             color: {
-                value: "#ffffff",
+                value: "#00838D",
             },
             links: {
                 blink: false,
@@ -101,7 +87,7 @@ const App = () => {
                 distance: 30,
                 enable: true,
                 opacity: 0.4,
-                width: 1,
+                width: 2,
             },
             move: {
                 enable: true,
@@ -109,7 +95,7 @@ const App = () => {
                 speed: 1,
             },
             number: {
-                value: 300,
+                value: 200,
             },
             opacity: {
                 animation: {
@@ -129,51 +115,51 @@ const App = () => {
                 value: 1,
             },
         },
-        polygon: {
-            draw: {
-                enable: true,
-                stroke: {
-                    color: "#000",
-                    width: 1,
-                    opacity: 0.2,
-                },
-            },
-            enable: true,
-            move: {
-                radius: 10,
-            },
-            position: {
-                x: 50,
-                y: 50,
-            },
-            inline: {
-                arrangement: "equidistant",
-            },
-            scale: 0.5,
-            type: "inline",
-            url: "/smalldeer.svg",
-        },
-        background: {
-            color: "transparent",
-            image: "",
-            position: "50% 50%",
-            repeat: "no-repeat",
-            size: "cover",
-        },
+        // polygon: {
+        //     draw: {
+        //         enable: true,
+        //         stroke: {
+        //             color: "#000",
+        //             width: 1,
+        //             opacity: 0.2,
+        //         },
+        //     },
+        //     enable: true,
+        //     move: {
+        //         radius: 10,
+        //     },
+        //     position: {
+        //         x: 50,
+        //         y: 50,
+        //     },
+        //     inline: {
+        //         arrangement: "equidistant",
+        //     },
+        //     scale: 0.5,
+        //     type: "inline",
+        //     url: "https://particles.js.org/images/smalldeer.svg",
+        // },
+        // background: {
+        //     color: "transparent",
+        //     image: "",
+        //     repeat: "no-repeat",
+        //     size: "100% 100vh",
+        // position: "center",
+        // },
     }),
     [],
   );
+//   if (!show) {
+//     return null; // Hide the animation if show is false
+//   }
 
-  if (init) {
-    return (
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={options}
-      />
-    );
-  }
-
-  return <></>;
+  return (
+    <Particles
+      id="tsparticles"
+      particlesLoaded={particlesLoaded}
+      options={options}
+    />
+  );
 };
-export default App;
+
+export default Animation;

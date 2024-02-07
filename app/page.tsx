@@ -2,8 +2,13 @@
 import { TypeAnimation } from 'react-type-animation'
 import Animation from "@/components/Animation"
 import About from '@/components/About';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Home() {
+
+
+
   return (
     <main className="">
       <div className="bg-[#1A202C] h-screen">
@@ -28,12 +33,15 @@ export default function Home() {
           </div>  
 
           <div className='flex fixed right-10'>
+            {/* <Image src='smalldeer.svg' alt='toshi' width={300} height={300} /> */}
             <Animation />
+
           </div>  
           
           
         </div>
         <About /> 
+        
         
       </div>
      
