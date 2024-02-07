@@ -1,21 +1,29 @@
 "use client"
 import Link from 'next/link'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 function Header() {
 
   const [scrolling, setScrolling] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY > 20) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
-  }
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
 
-  window.addEventListener('scroll', handleScroll);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll);
+
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, []);
 
   return (
     <div className='fixed flex'>
