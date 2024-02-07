@@ -1,6 +1,7 @@
 "use client"
 import { TypeAnimation } from 'react-type-animation'
 import Animation from "@/components/Animation"
+import About from '@/components/About';
 
 export default function Home() {
   return (
@@ -28,9 +29,11 @@ export default function Home() {
 
           <div className='flex fixed right-10'>
             <Animation />
-          </div>   
+          </div>  
+          
           
         </div>
+        <About /> 
         
       </div>
      
