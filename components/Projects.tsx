@@ -97,7 +97,7 @@ function Projects() {
                     </div>
                     
                     <p className='text-lg text-slate-400 font-medium text-center py-3 m-2'>If you want to see more of my projects, you can check my 
-                    <a href='https://github.com/toshi-Devs' target='_blank' className='text-lime-200 hover:text-lime-400 transition-all duration-300'> Github</a> page.</p>
+                    <a href='https://github.com/toshi-Devs' target='_blank' className='text-[#00838D] hover:text-lime-400 transition-all duration-300'> Github</a> page.</p>
                     
 
                     
