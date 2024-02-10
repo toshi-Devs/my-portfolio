@@ -14,9 +14,9 @@ function Projects() {
                          {/* Now i will put a link to code and live website on top right of this div */}
                             <div className='flex flex-row justify-end space-x-3 pt-2'>
                                 <a href='https://github.com/toshi-Devs/Dropbox-clone-nextjs' target='_blank' 
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
                                 <a href='https://dropbox-clone-nextjs.vercel.app/' target='_blank' 
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
                             </div>
 
                             <div className='flex flex-col items-center justify-center space-y-5 pb-5 cursor-pointer'>
@@ -35,9 +35,9 @@ function Projects() {
                          {/* Now i will put a link to code and live website on top right of this div */}
                             <div className='flex flex-row justify-end space-x-3 pt-2'>
                                 <a href='https://github.com/toshi-Devs/auth-application' target='_blank'
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
                                 <a href='https://auth-application-wine.vercel.app/' target='_blank'
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
                             </div>
 
                             <div className='flex flex-col items-center justify-center space-y-5 pb-5 cursor-pointer'>
@@ -57,9 +57,9 @@ function Projects() {
                          {/* Now i will put a link to code and live website on top right of this div */}
                             <div className='flex flex-row justify-end space-x-3 pt-2'>
                                 <a href='https://github.com/toshi-Devs/advice-generator-app' target='_blank'
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
                                 <a href='https://advice-generator-app-ivory-iota.vercel.app/' target='_blank'
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
                             </div>
 
                             <div className='flex flex-col items-center justify-center space-y-5 pb-5 cursor-pointer'>
@@ -78,9 +78,9 @@ function Projects() {
                          {/* Now i will put a link to code and live website on top right of this div */}
                             <div className='flex flex-row justify-end space-x-3 pt-2'>
                                 <a href='https://github.com/toshi-Devs/Dropbox-clone-nextjs' target='_blank' 
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
                                 <a href='https://dropbox-clone-nextjs.vercel.app/' target='_blank' 
-                                className='text-slate-100 hover:text-lime-200 transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
                             </div>
 
                             <div className='flex flex-col items-center justify-center space-y-5 pb-5 cursor-pointer'>

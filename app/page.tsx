@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 import Animation from "@/components/Animation"
 import About from '@/components/About';
 import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
 
 
 export default function Home() {
@@ -42,6 +43,7 @@ export default function Home() {
         </div>
         <About /> 
         <Projects />
+        <Contact />
         
         
       </div>
