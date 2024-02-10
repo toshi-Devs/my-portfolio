@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaTwitter } from 'react-icons/fa'
 import { FaGithub, FaLinkedin } from 'react-icons/fa6'
-import { LuSend } from 'react-icons/lu'
+import { LuMail, LuSend } from 'react-icons/lu'
 
 function Contact() {
 
@@ -38,6 +38,8 @@ function Contact() {
                 className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center hover:scale-110'><FaLinkedin size={40} /></a>
                 <a href='https://github.com/toshi-Devs' target='_blank' 
                 className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center hover:scale-110'><FaGithub size={40} /></a>
+                <a href='mailto:trahim87mustapha@gmail.com' target='_blank' 
+                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center hover:scale-110'><LuMail size={40} /></a>
             </div>
         
         </div>
