@@ -2,8 +2,8 @@
 import { TypeAnimation } from 'react-type-animation'
 import Animation from "@/components/Animation"
 import About from '@/components/About';
-import Image from 'next/image';
-import { useState } from 'react';
+import Projects from '@/components/Projects';
+
 
 export default function Home() {
 
@@ -41,6 +41,7 @@ export default function Home() {
           
         </div>
         <About /> 
+        <Projects />
         
         
       </div>
