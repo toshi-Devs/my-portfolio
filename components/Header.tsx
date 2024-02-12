@@ -27,7 +27,7 @@ function Header() {
   }, []);
 
   return (
-    <div className='fixed flex'>
+    <div className='fixed flex z-50'>
 
         <nav className='fixed flex w-full top-0 left-0 justify-center items-center mt-5 '>
           {scrolling ? 
