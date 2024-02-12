@@ -23,7 +23,7 @@ function About() {
                     where I trade pixels for headshots. Life's an adventure, and I'm here for the ride!</p>
             </div>  
 
-            <div className='space-y-3 py-10 mx-10 '>
+            <div className='space-y-3 py-10 mx-10'>
                 <h2 className='text-2xl font-bold text-slate-100'>Skills</h2>
 
                 <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center justify-center'>

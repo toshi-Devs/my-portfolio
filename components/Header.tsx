@@ -31,7 +31,7 @@ function Header() {
 
         <nav className='fixed flex w-full top-0 left-0 justify-center items-center mt-5 '>
           {scrolling ? 
-            <div className=' bg-[#72727233] backdrop-blur-md shadow-md py-2 px-3 rounded-xl select-none text-slate-400 font-bold flex items-center'>
+            <div className=' bg-[#72727233] backdrop-blur-md shadow-md py-2 px-3 rounded-xl select-none text-slate-300 font-bold flex items-center'>
               {/* put the image next to the navbar items*/}
               <div className='rounded-full overflow-hidden cursor-pointer'>
                 <Link href='/'>
@@ -43,7 +43,7 @@ function Header() {
                 <Link href="#Projects" className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Projects</Link>
                 <Link href="#Contact" className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Contact</Link>
             </div> :
-              <div className='py-2 px-3 rounded-xl select-none text-slate-400 font-bold flex items-center'>
+              <div className='py-2 px-3 rounded-xl select-none text-slate-300 font-bold flex items-center'>
                 <div className='rounded-full overflow-hidden cursor-pointer'>
                 <Link href='/'>
                     <Image src='/toshi-logo-nobg.png' alt='logo' width={40} height={40} />
