@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa6'
 import { LuMail, LuSend } from 'react-icons/lu'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
+import Footer from '@/components/Footer';
 
 
 function Contact() {
@@ -110,7 +111,8 @@ function Contact() {
             Send <LuSend className="ml-1" />
           </button>
         </form>
-            <div className='flex flex-row space-x-3 pt-5 bg-slate-950'>
+        {/* <Footer /> */}
+            {/* <div className='flex flex-row space-x-3 pt-5 bg-slate-950'>
                 <a href='https://www.linkedin.com/in/mostafa-trahim/' target='_blank' 
                 className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center hover:scale-110'><FaLinkedin size={40} /></a>
                 <a href='https://github.com/toshi-Devs' target='_blank' 
@@ -121,7 +123,7 @@ function Contact() {
                 
             </div>
             <p className='text-lg text-slate-100 font-semibold text-center py-3 m-2 font-mono'>Designed and Coded by 
-            <a href='https://github.com/toshi-Devs' target='_blank' className='text-[#40CF8E] hover:text-lime-400 transition-all duration-300'> Toshi-Devs</a></p>
+            <a href='https://github.com/toshi-Devs' target='_blank' className='text-[#40CF8E] hover:text-lime-400 transition-all duration-300'> Toshi-Devs</a></p> */}
         </div>
     </div>
   )
