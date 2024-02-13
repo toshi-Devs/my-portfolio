@@ -110,7 +110,7 @@ function Contact() {
             Send <LuSend className="ml-1" />
           </button>
         </form>
-            <div className='flex flex-row space-x-3 pt-5'>
+            <div className='flex flex-row space-x-3 pt-5 bg-slate-950'>
                 <a href='https://www.linkedin.com/in/mostafa-trahim/' target='_blank' 
                 className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center hover:scale-110'><FaLinkedin size={40} /></a>
                 <a href='https://github.com/toshi-Devs' target='_blank' 
