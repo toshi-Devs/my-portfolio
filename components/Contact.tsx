@@ -81,7 +81,7 @@ function Contact() {
             </p>
         </div>
 
-        <div className='flex flex-col space-y-3 mx-10 pt-10 justify-center items-center'>
+        <div className='flex flex-col space-y-3 mx-10 pt-10 justify-center items-center bg-slate-950'>
         <form className="flex flex-col space-y-3 w-2/3" ref={form} onSubmit={formSubmit}>
           <label htmlFor="name" className="text-lg text-slate-400">Name</label>
           <input 
