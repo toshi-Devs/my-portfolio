@@ -81,7 +81,7 @@ function Contact() {
             </p>
         </div>
 
-        <div className='flex flex-col space-y-3 mx-10 pt-10 backdrop-blur-md justify-center items-center'>
+        <div className='flex flex-col space-y-3 mx-10 pt-10 justify-center items-center'>
         <form className="flex flex-col space-y-3 w-2/3" ref={form} onSubmit={formSubmit}>
           <label htmlFor="name" className="text-lg text-slate-400">Name</label>
           <input 
@@ -89,7 +89,7 @@ function Contact() {
             value={from_name}
             name="from_name"
             onChange={onChange}
-            className="bg-slate-950 border-2 border-lime-100 p-3 rounded-md text-slate-100"
+            className="bg-slate-950 border-2 border-lime-100 p-3 rounded-md text-slate-100 backdrop-blur-md"
           />
           <label htmlFor="email" className="text-lg text-slate-400">Email</label>
           <input
@@ -97,14 +97,14 @@ function Contact() {
             value={from_email}
             name="from_email"
             onChange={onChange}
-            className="bg-slate-950 border-2 border-lime-100 p-3 rounded-md text-slate-100"
+            className="bg-slate-950 border-2 border-lime-100 p-3 rounded-md text-slate-100 backdrop-blur-md"
           />
           <label htmlFor="message" className="text-lg text-slate-400">Message</label>
           <textarea
             name="message"
             value={message}
             onChange={onChange}
-            className="bg-slate-950 border-2 border-lime-100 p-3 rounded-md text-slate-100 h-40 max-h-40"
+            className="bg-slate-950 border-2 border-lime-100 p-3 rounded-md text-slate-100 h-40 max-h-40 backdrop-blur-md"
           ></textarea>
           <button type="submit" value="Send" className="bg-lime-200 text-slate-950 p-3 rounded-md font-semibold w-fit flex items-center justify-center hover:bg-[#00838D]">
             Send <LuSend className="ml-1" />
