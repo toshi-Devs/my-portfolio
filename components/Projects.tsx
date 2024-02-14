@@ -4,7 +4,9 @@ import { FaGithub } from 'react-icons/fa6'
 
 function Projects() {
   return (
-    <div className='flex flex-col min-h-screen bg-slate-950 border-t-lime-200 border-t-2 py-10' id='Projects'>
+    <div className='bg-slate-950'>
+
+    <div className='container mx-auto flex flex-col min-h-screen bg-slate-950 border-t-lime-200 border-t-2 py-10' id='Projects'>
         
         <h2 className='text-2xl font-bold text-slate-100 mx-10 pb-2'>Projects</h2>
            
@@ -100,6 +102,7 @@ function Projects() {
                     
 
                     
+    </div>
     </div>
   )
 }

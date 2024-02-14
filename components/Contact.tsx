@@ -1,11 +1,10 @@
 "use client"
 
 import { useRef, useState } from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa6'
-import { LuMail, LuSend } from 'react-icons/lu'
+import { LuSend } from 'react-icons/lu'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
-import Footer from '@/components/Footer';
+
 
 
 function Contact() {
@@ -74,7 +73,10 @@ function Contact() {
 
 
   return (
-    <div id='Contact' className='flex flex-col h-screen bg-slate-950 border-t-lime-200 border-t-2 py-10 space-y-5'>
+    <div className='bg-slate-950'>
+
+    
+    <div id='Contact' className=' container mx-auto flex flex-col h-screen bg-slate-950 border-t-lime-200 border-t-2 py-10 space-y-5'>
         <div className='space-y-3 mx-10'>
             <h2 className='text-2xl font-bold text-slate-100'>Contact</h2>
             <p className=' text-lg text-slate-400 inline-block font-medium'>
@@ -125,6 +127,7 @@ function Contact() {
             <p className='text-lg text-slate-100 font-semibold text-center py-3 m-2 font-mono'>Designed and Coded by 
             <a href='https://github.com/toshi-Devs' target='_blank' className='text-[#40CF8E] hover:text-lime-400 transition-all duration-300'> Toshi-Devs</a></p> */}
         </div>
+    </div>
     </div>
   )
 }
