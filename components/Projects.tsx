@@ -95,6 +95,27 @@ function Projects() {
                                 </div>  
                             </div>                          
                         </div>
+
+                        <div className='bg-[#1C1C1C] m-3 border-2 border-lime-100 rounded-sm shadow-lg backdrop-blur-md p-5'>
+                         {/* Now i will put a link to code and live website on top right of this div */}
+                            <div className='flex flex-row justify-end space-x-3 pt-2'>
+                                <a href='https://github.com/toshi-Devs/password-generator' target='_blank'
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
+                                <a href='https://password-generator-iota-gray.vercel.app/' target='_blank'
+                                className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
+                            </div>
+
+                            <div className='flex flex-col items-center justify-center space-y-5 pb-5 cursor-pointer'>
+                                <h3 className='text-xl font-bold font-sans text-slate-100'>Password Gennerator App</h3>
+                                <p className='text-lg text-slate-400 font-medium text-center'>A very basic Password generator app using Vanilla JavaScript</p>
+                                <div className='flex flex-row space-x-1 gap-1 items-center uppercase font-mono'>
+                                    <p className='text-sm font-semibold px-1 border-2 rounded-ee-lg text-[#FBD38D] border-[#FBD38D] bg-[#fbd38d29]'> Javascript</p>
+                                    <p className='text-sm font-semibold px-1 border-2 rounded-ee-lg text-[#D6BCFA] border-[#D6BCFA] bg-[#fbd38d29]'> HTML</p>
+                                    <p className='text-sm font-semibold px-1 border-2 rounded-ee-lg text-[#FBB6CE] border-[#FBB6CE] bg-[#fbd38d29]'> TailwindCSS</p>
+                                </div>  
+                            </div>                          
+                        </div>
+
                     </div>
                     
                     <p className='text-lg text-slate-400 font-medium text-center py-3 m-2'>If you want to see more of my projects, you can check my 
