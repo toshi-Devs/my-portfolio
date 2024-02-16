@@ -107,7 +107,7 @@ function Projects() {
 
                             <div className='flex flex-col items-center justify-center space-y-5 pb-5 cursor-pointer'>
                                 <h3 className='text-xl font-bold font-sans text-slate-100'>Password Gennerator App</h3>
-                                <p className='text-lg text-slate-400 font-medium text-center'>A very basic Password generator app using Vanilla JavaScript</p>
+                                <p className='text-lg text-slate-400 font-medium text-center'>A very simple Password generator app using Vanilla JavaScript</p>
                                 <div className='flex flex-row space-x-1 gap-1 items-center uppercase font-mono'>
                                     <p className='text-sm font-semibold px-1 border-2 rounded-ee-lg text-[#FBD38D] border-[#FBD38D] bg-[#fbd38d29]'> Javascript</p>
                                     <p className='text-sm font-semibold px-1 border-2 rounded-ee-lg text-[#D6BCFA] border-[#D6BCFA] bg-[#fbd38d29]'> HTML</p>
