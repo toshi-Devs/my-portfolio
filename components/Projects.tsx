@@ -35,9 +35,9 @@ function Projects() {
                         <div className='bg-[#1C1C1C] m-3 border-2 border-lime-100 rounded-sm shadow-lg backdrop-blur-md p-5'>
                          {/* Now i will put a link to code and live website on top right of this div */}
                             <div className='flex flex-row justify-end space-x-3 pt-2'>
-                                <a href='https://github.com/toshi-Devs/my-portfolio' target='_blank' 
+                                <a href='https://github.com/toshi-Devs/Food-Delivery-App' target='_blank' 
                                 className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaGithub size={25} /></a>
-                                <a href='https://toshi-devs.vercel.app/' target='_blank' 
+                                <a href='https://food-delivery-app-zeta-khaki.vercel.app/' target='_blank' 
                                 className='text-slate-100 hover:text-[#40CF8E] transition-all duration-300 flex flex-col items-center'><FaLink size={25} /> </a>
                             </div>
 
