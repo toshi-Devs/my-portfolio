@@ -45,10 +45,10 @@ function Header() {
                     <Image src='/toshi-logo-nobg.png' alt='logo' width={40} height={40} />
                 </Link>
               </div>
-                <Link href="/" className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Home</Link>
-                <Link href="#About" onClick={() => smoothScrollTo('About')} className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> About</Link>
-                <Link href="#Projects" onClick={() => smoothScrollTo('Projects')} className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Projects</Link>
-                <Link href="#Contact" onClick={() => smoothScrollTo('Contact')} className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Contact</Link>
+                <Link href="/" className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> Home</Link>
+                <Link href="#About" onClick={() => smoothScrollTo('About')} className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> About</Link>
+                <Link href="#Projects" onClick={() => smoothScrollTo('Projects')} className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> Projects</Link>
+                <Link href="#Contact" onClick={() => smoothScrollTo('Contact')} className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> Contact</Link>
             </div> :
               <div className='py-2 px-3 rounded-xl select-none text-slate-300 font-bold flex items-center'>
                 <div className='rounded-full overflow-hidden cursor-pointer'>
@@ -56,10 +56,10 @@ function Header() {
                     <Image src='/toshi-logo-nobg.png' alt='logo' width={40} height={40} />
                 </Link>
               </div>
-                  <Link href="/" className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Home</Link>
-                  <Link href="#About" onClick={() => smoothScrollTo('About')} className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> About</Link>
-                  <Link href="#Projects" onClick={() => smoothScrollTo('Projects')} className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Projects</Link>
-                  <Link href="#Contact" onClick={() => smoothScrollTo('Contact')} className='w-fit hover:bg-slate-50 py-2 px-5 rounded-full'> Contact</Link>
+                  <Link href="/" className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> Home</Link>
+                  <Link href="#About" onClick={() => smoothScrollTo('About')} className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> About</Link>
+                  <Link href="#Projects" onClick={() => smoothScrollTo('Projects')} className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> Projects</Link>
+                  <Link href="#Contact" onClick={() => smoothScrollTo('Contact')} className='w-fit hover:bg-[#000042] py-2 px-5 rounded-full'> Contact</Link>
               </div>
               }
         </nav>

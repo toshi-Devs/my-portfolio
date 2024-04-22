@@ -18,7 +18,7 @@ export default function Home() {
 
           <div className="space-y-3 p-5 select-none container mx-auto">
             <div className="text-white text-6xl">Hey, I'm <span className=" text-[#00838D] font-semibold">Mostafa TRAHIM.</span></div>
-            <div className="text-white text-5xl">A <span className=" text-[#00838D]">Software Developer</span></div>
+            <div className="text-white text-5xl">A <span className=" text-[#00838D]">Frontend Developer</span></div>
             <div className="text-white text-2xl font-mono">interested in </div>
             <div className='text-white text-2xl font-mono sm:text-xl'> 
               <TypeAnimation
